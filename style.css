@@ -737,7 +737,7 @@ MEDIA QUERY FOR SMALL LAPTOPS AND BIG TABLETS
     }   
     body{
         width: 70%;
-        font-size: 16px;
+        font-size: 10px;
     }
     nav .search-bar{
         display: none;
