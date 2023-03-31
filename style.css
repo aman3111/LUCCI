@@ -776,8 +776,8 @@ MEDIA QUERY FOR SMALL LAPTOPS AND BIG TABLETS
     }
     nav {
         margin: 0;
-        padding-right: 5rem;
-        padding-left: -3rem;
+        padding-right: -1rem;
+        padding-left: -2rem;
     }
     .container .middle{
         margin-left: -20px;
