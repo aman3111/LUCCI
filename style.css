@@ -10,7 +10,7 @@
     
     --color-white: hsl(252, 30%, var(--white-color-lightness));
     --color-light: hsl(324, 100%, var(--light-color-lightness));
-    --color-gray: hsl(252, 15%, 65%);
+    --color-gray: hsl(var(--primary-color-hue), 15%, 65%);
     --color-primary: hsl(var(--primary-color-hue), 51%, 14%);
     --color-secondary: hsl(317, 33%, 73%);
     --color-dark: hsl(254, 32%, var(--dark-color-lightness));
@@ -747,6 +747,9 @@ MEDIA QUERY FOR SMALL LAPTOPS AND BIG TABLETS
     nav .search-bar{
         display: none;
     }
+    nav .container{
+        gap: 1rem;
+    }
    main .container{
         grid-template-columns: 0 auto 5rem;
         gap: 1rem;
@@ -781,7 +784,7 @@ MEDIA QUERY FOR SMALL LAPTOPS AND BIG TABLETS
     }
     nav {
         margin: 0;
-        padding-right: -1rem;
+        padding-right: -3rem;
         padding-left: -2rem;
     }
     .container .middle{
